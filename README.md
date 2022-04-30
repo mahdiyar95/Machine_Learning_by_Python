@@ -1,5 +1,4 @@
-# Python_Useful_Puzzles
+# Fundamental codes used in implementation of ML algorithms
 
-
-I've tired to write beneficial practical puzzle of codes here. 
+1- KNN
 
