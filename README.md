@@ -4,3 +4,6 @@
 
 
 ### 1- Enumerate and zip
+
+### 2- Cumulative rate
+There are many situation we want to demonstrate a progress in our algorithm, where the algorithm has computed something step by step and as a result we expect a convergence. This code seems to be useful in many circumstances.
