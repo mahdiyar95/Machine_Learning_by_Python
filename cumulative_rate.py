@@ -1,17 +1,26 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# The core of this code is 'cumsum' function from numpy!
+# As you can see below, in addition to our matrix as an input argument, we can also choose
+# between column accumulation or row accumulation by using second argument (axis = 0 or 1)
 a = [[1, 2 ,3 ],[4,5 ,6]]
 print(a)
+# [[1, 2, 3], [4, 5, 6]]
 
 print(np.cumsum(a))
+# [ 1  3  6 10 15 21]
 
 print(np.cumsum(a , axis=0))
+#[[1 2 3]
+# [5 7 9]]
 
 print(np.cumsum(a , axis=1))
+#[[ 1  3  6]        
+#[ 4  9 15]]
 
-# know we want to plot our rate
 
+# now we want to plot our rate
 # assum our scores have been stored in b, step by step
 b = np.random.randint(100, size=100)
 plt.figure()
