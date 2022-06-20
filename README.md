@@ -1,6 +1,6 @@
 # Fundamental codes used in implementation of ML algorithms
 
-1- KNN : the most important point is "how to search in a multi dimensional array in python" , but I tried to explain A-to-Z. <br />
+1- KNN : (Supervised Learning --> KNN) <br/> the most important point is "how to search in a multi dimensional array in python" , but I tried to explain A-to-Z. <br />
 &emsp; &emsp; &emsp; I studied 3 or 4 websites in order to obtain insights into knn, such as:<br />
 &emsp; &emsp; &emsp; https://www.c-sharpcorner.com/article/knn-k-nearest-neighbors/
 
@@ -11,10 +11,8 @@ It is roughly the most simplest algorithm in ML. The Linear Regression is used t
 Algorithm
 <br/>
 Our goal is to maximize the total rewards and our limitation is that (in reality) we do not know each machine's win probability, so we choose the best machine. Therefore, to obtain these probabilities, we need to play with all machines. But how much we should explore? The actual aim is to strike a balance between exploration and exploitation. The algorithm's approach to doing this is whenever we want to play, decide between explore and exploit. The decision will be made by chance so that in each step, we generate a random number between 0 and 1, if the number is less than epsilon, we explore and vice versa.
-
 <br/> <br/>
-Program
-<br/>
+Program<br/>
 Let's say we are in a casino that has 4 machines and we are allowed to play 10000 times. Each time we select one of those machines and play with that. The rule is If the machine returns 1, we obtain 1 dollar and if it returns 0, we don't gain. So, we want to collect dollars as much as possible by applying the epsilon-greedy method. Therefore, the program should simulate us and machines.
 <br/>
 To do that we need to :
