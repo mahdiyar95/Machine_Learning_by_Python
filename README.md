@@ -16,9 +16,6 @@
   - Program<br/>
       - Let's say we are in a casino that has 4 machines and we are allowed to play 10000 times. Each time we select one of those machines and play with that. The rule is If the machine returns 1, we obtain 1 dollar and if it returns 0, we don't gain. So, we want to collect dollars as much as possible by applying the epsilon-greedy method. Therefore, the program should simulate us and machines.To do that we need to :
       - Create a machine object. This object simulates a machine that does two functions. First, "pull" : returns 1 (win) with machine probability ("p") and second, "update" : updates the machine's success rate.
-<br/>
       - Create 4 machines with 4 different win probabilities
-<br/>
       - Run the algorithm over a 70000-iteration period.
-<br/>
       - Demonstrate the results including: . the number of explorations . the number of exploitations . the number of selecting the best machine . Total rewards . overall win rate
