@@ -8,4 +8,4 @@ There are these branches :
 
 1- Fundamental : Basic practical python codes I have seen in programs
 
-2- ML Algorithms Fundamentals : Describ basic implementations of Machine Learning Algorithms
+2- ML Algorithms : Describ basic implementations of Machine Learning Algorithms
