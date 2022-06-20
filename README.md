@@ -1,4 +1,4 @@
-# Fundamental codes used in implementation of ML algorithms
+# Implementation of ML algorithms
 
 1- **KNN** : (Supervised Learning --> KNN)
   - The most important point is "how to search in a multi dimensional array in python" , but I tried to explain A-to-Z. <br />
